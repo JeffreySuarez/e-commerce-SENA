@@ -35,7 +35,7 @@
 }
 
 .formulario-login {
-  background-color: whitesmoke;
+  background-color: #fbfbfb;
   width: 500px;
   height: 500px;
 }
@@ -114,4 +114,8 @@
 
 .check-login {
   margin: 10px 0px;
+}
+
+.color-boton {
+  background-color: #0081cf;
 }
