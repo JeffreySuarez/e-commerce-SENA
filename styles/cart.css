@@ -1,0 +1,89 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contenedor-cart {
+  width: 100%;
+  height: 100%;
+
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.titulo-cart {
+  text-align: center;
+  margin: 40px;
+}
+
+.imagen-interno-cart {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagenes-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imagenes-internas-cart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.titulo-cart-text h2 {
+  font-weight: bold;
+}
+
+.stock {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #0081cf;
+  font-weight: bold;
+}
+
+.precio {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.message-stock {
+  margin: 20px 0px;
+  color: #0081cf;
+}
+
+.contador {
+  font-size: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.contador span {
+  cursor: pointer;
+}
+
+.size {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tamaños-diferentes {
+  padding: 10px;
+  border: 1px solid #0081cf;
+  margin: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contenedor-principal-about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+
+.contenido-about {
+  height: 450px;
+  width: 80%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos texto del header */
+
+.texto-about {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-about .texto-about-one {
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 20px 0px;
+}
+
+.texto-about .texto-about-two {
+  padding: 20px 0px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+.texto-about .texto-about-three {
+  background-color: #0081cf;
+}
+
+/* Estilos imagen del header */
+
+.contenido-imagen-bout {
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.imagen-about {
+  height: 300px;
+}
+
+.imagen-about .imagen-about1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}

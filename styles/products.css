@@ -1,0 +1,131 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contenedor-pagination {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* inicio seccion productos */
+
+.contenedor-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.contenedor-products-principal {
+  margin-top: 100px;
+  width: 80%;
+}
+
+.contenido-texto-products h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.contenido-texto-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafo-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-texto-products p {
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.flechas-collection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.flechas-collection i {
+  font-size: 30px;
+  color: #0081cf;
+}
+
+/* estilos del card winter */
+
+.card-collection-winter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-winter {
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.card-winter:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.imagen-card-winter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.texto-card-winter {
+  padding: 10px;
+  width: 100%;
+}
+.texto-card-winter .titulo-card-winter {
+  font-weight: bold;
+}
+
+.precio-botton-card-winter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.precio-botton-card-winter i {
+  color: #0081cf;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.precio-botton-card-winter i:hover {
+  color: #00588e;
+}
+
+.flecha-view-all {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.flecha-view-all span {
+  padding-right: 20px;
+}
+
+.flecha-view-all a {
+  text-decoration: none;
+  color: gray;
+}

@@ -108,6 +108,11 @@
   width: 50%;
 }
 
+.contenido-boton-login a {
+  text-decoration: none;
+  color: white;
+}
+
 .texto-titulo {
   margin-bottom: 10px;
 }
